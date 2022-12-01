@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  font-family: 'M PLUS 1', sans-serif;
   font-size: 15px;
   letter-spacing: .05em;
   color: #333;
@@ -17,7 +17,6 @@ img {
   vertical-align: bottom;
   border-style: none;
 }
-
 
 
 .pc-only {
@@ -53,13 +52,14 @@ img {
  見出し
 ---------------------------------*/
 .title {
-  font-size: 34px;
+  font-size: 40px;
   font-weight: bold;
   line-height: 1;
   margin-bottom: 40px;
   text-align: center;
   letter-spacing: .05em;
   color: #333;
+  font-family: 'Sigmar One', cursive;
 }
 
 .lead {
@@ -78,6 +78,7 @@ img {
   width: 100%;
   background-color: #fff;
   box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
+  font-family: 'Sigmar One', cursive;
 }
 
 .header .container {
@@ -88,7 +89,6 @@ img {
 }
 
 .header-logo {
-  font-size: 20px;
   font-weight: bold;
   line-height: 1.2;
   margin-right: 20px;
@@ -97,6 +97,7 @@ img {
 
 .header-logo a {
   color: #333;
+  font-size: 25px;
 }
 
 .gnav-list {
@@ -111,7 +112,7 @@ img {
 
 .gnav-item a {
   position: relative;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: bold;
   display: inline-block;
   padding: 5px 0;
@@ -240,6 +241,8 @@ img {
 
 .skill-name {
   margin-bottom: 10px;
+  font-family: 'Sigmar One', cursive;
+  font-size: 20px;
 }
 
 .skill-text {
@@ -337,6 +340,7 @@ img {
 .article-title {
   margin-bottom: 30px;
   text-align: center;
+  font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 .article-body {
@@ -350,6 +354,7 @@ img {
   font-size: 18px;
   margin-bottom: 5px;
   padding-left: 1em;
+  font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 .article-body h3:not(:first-child) {
@@ -375,6 +380,7 @@ img {
 
 .home-link {
   text-align: center;
+  font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 /*media Queries 767
