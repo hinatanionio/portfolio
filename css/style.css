@@ -145,12 +145,19 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 85vh;
+  height: 90vh;
   text-align: center;
+  background-image: url(../img/bg-mv.jpeg);
+  background-size: cover;
+  background-position:top;
 }
 
 .mv-container {
   padding: 0 40px;
+}
+
+.mv-container img{
+  width: 50vw;
 }
 
 .mv-title {
@@ -474,6 +481,10 @@ img {
   .mv-text {
     font-size: 14px;
     line-height: 1.7;
+  }
+
+  .mv-container img{
+    width: 100vw;
   }
 
   /* Works */
