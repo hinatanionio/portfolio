@@ -395,6 +395,12 @@ img {
   height: 100%;
 }
 
+.article-movie img{
+  width: 100%;
+  height: 100%;
+  margin: 10px; 
+}
+
 .home-link {
   text-align: center;
 }
